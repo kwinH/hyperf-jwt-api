@@ -126,7 +126,7 @@ curl -X GET \
 ## CURL请求
 ```curl
 curl -X PUT \
-  http://127.0.0.1:9501/api/user/info \
+  http://127.0.0.1:9501/api/user/edit_name \
   -H 'authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJkZWZhdWx0XzQiLCJpYXQiOjE2MTU3OTc5NjMsIm5iZiI6MTYxNTc5Nzk2MywiZXhwIjoxNjE1ODA1MTYzLCJ1aWQiOjQsIm1vYmlsZSI6IjE1ODU4ODk2MzYzIiwiand0X3NjZW5lIjoiZGVmYXVsdCJ9.Khp1QXCWMzbNdcSg_PsJyfUNY7Y9VT-o2JTsw8GNXlk' \
   -F name=kwin
 ```
